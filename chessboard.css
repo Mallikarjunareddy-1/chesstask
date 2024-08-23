@@ -1,0 +1,15 @@
+.chess-board { border-spacing: 0; border-collapse: collapse; 
+               box-sizing: border-box;
+               display: flex;
+               justify-content: center;
+               margin-top: 6S0px;
+            background-color: #969090;}
+.chess-board th { padding: .5em; }
+.chess-board th + th { border-bottom: 1px solid #000; }
+.chess-board th:first-child,
+.chess-board td:last-child { border-right: 1px solid #000; }
+.chess-board tr:last-child td { border-bottom: 1px solid; }
+.chess-board th:empty { border: none; }
+.chess-board td { width: 3em; height: 3em; text-align: center; font-size: 32px; line-height: 0;}
+.chess-board .light { background: whitesmoke; }
+.chess-board .dark { background:rgb(198, 143, 41); }
